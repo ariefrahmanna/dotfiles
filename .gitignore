@@ -1,0 +1,53 @@
+# System files
+.DS_Store
+.landscape
+.motd_shown
+.sudo_as_admin_successful
+
+# Application-specific files and directories
+.aws/
+.azure/
+.docker/
+.idea/
+.vscode/
+.vscode-server/
+
+# Cache, logs, and temporary files
+.bak
+.cache/
+.local/
+*.log
+*.swo
+*.swp
+*~
+*.tmp
+
+# Node.js and npm
+.nfm/
+.nvm/
+.npm/
+node_modules/
+.node_repl_history
+
+# Shell history and configuration
+.bash_history
+.zsh_history
+.bash_logout
+.viminfo
+.zcompdump*
+
+# Sensitive files
+.ssh/
+*.pem
+
+# Personal directories (not related to dotfiles)
+Documents/
+codez/
+
+# Miscellaneous
+.oh-my-zsh/
+.tmux/
+.vim/
+.lesshst
+.config/tmux/plugins/
+.config/nvim/lazy-lock.json

@@ -9,19 +9,18 @@
     autocrlf = false
 [push]
     autoSetupRemote = true
-
 [color "branch"]
     current = yellow reverse
     local = yellow
     remote = green
-
 [color "diff"]
     meta = yellow bold
     frag = magenta bold # line info
     old = red # deletions
     new = green # additions
-
 [color "status"]
     added = yellow
     changed = green
     untracked = cyan
+[credential]
+    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe

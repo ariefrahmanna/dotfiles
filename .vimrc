@@ -56,7 +56,7 @@ set noerrorbells
 set novisualbell
 set t_vb=
 
-# custom command to remove carriage return (displayed as ^M)
+" custom command to remove carriage return (displayed as ^M)
 command! RemoveCR %s/\r//g
 
 " Normal mode keybindings

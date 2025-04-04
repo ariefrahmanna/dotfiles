@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-export XDG_CONFIG_HOME="$HOME/.config"
+# export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR="nvim"
 
 ZSH_THEME="robbyrussell"

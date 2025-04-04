@@ -5,5 +5,11 @@ This repository contains my personal dotfiles, configuration files, and setup sc
 ## Setup
 
 ```sh
-git clone https://github.com/ariefrahmanna/dotfiles.git ~/
+git clone https://github.com/ariefrahmanna/dotfiles.git ~/dotfiles/
+```
+
+## Installation
+```sh
+cd ~/dotfiles/
+stow .
 ```

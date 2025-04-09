@@ -31,5 +31,4 @@ tinit() {
   fi
 }
 
-tinit
 source $ZSH/oh-my-zsh.sh

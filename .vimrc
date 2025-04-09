@@ -1,6 +1,9 @@
-" Enable line numbers
-set nu
-set rnu
+" Set line numbers
+set number
+set relativenumber
+set numberwidth=5
+highlight LineNrAbove ctermfg=grey
+highlight LineNrBelow ctermfg=grey
 
 " Set default tab behavior (spaces instead of tabs)
 set expandtab
@@ -40,6 +43,7 @@ set completeopt=menu,menuone,noselect
 " Show invisible characters (like spaces, tabs, etc.)
 set list
 set listchars=tab:→\ ,trail:·
+set fillchars=eob:\ 
 
 " Enable auto-saving of files (for changes)
 set autowrite
@@ -71,7 +75,7 @@ nnoremap dd "_dd
 nnoremap p "+p
 nnoremap P "+P
 nnoremap <leader>rc :RemoveCR<CR>
-nnoremap <C-n> :tabnew<CR>
+nnoremap <C-n> :tabnew<CR>:e.<CR>
 nnoremap <C-w> :q<CR>
 nnoremap <Tab> :tabnext<CR>
 nnoremap <S-Tab> :tabprev<CR>

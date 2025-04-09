@@ -1,6 +1,6 @@
 " Enable line numbers
 set nu
-" set rnu
+set rnu
 
 " Set default tab behavior (spaces instead of tabs)
 set expandtab
@@ -70,7 +70,11 @@ nnoremap <Esc> :nohlsearch<CR>
 nnoremap dd "_dd
 nnoremap p "+p
 nnoremap P "+P
-nnoremap <leader>rc :RemoveCarriageReturn<CR>
+nnoremap <leader>rc :RemoveCR<CR>
+nnoremap <C-n> :tabnew<CR>
+nnoremap <C-w> :q<CR>
+nnoremap <Tab> :tabnext<CR>
+nnoremap <S-Tab> :tabprev<CR>
 
 " Insert mode keybindings
 inoremap <C-S> <Esc><cmd>w<CR>a

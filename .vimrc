@@ -63,6 +63,14 @@ set t_vb=
 " custom command to remove carriage return (displayed as ^M)
 command! RemoveCR %s/\r//g
 
+" converts tabs to spaces
+command! Tabs4space %s/\t/    /g
+command! Tabs2space %s/\t/  /g
+
+" sets space indentation
+command! Tabs2 set et ts=2 sw=2 sts=2
+command! Tabs4 set et ts=4 sw=4 sts=4
+
 " Normal mode keybindings
 nnoremap <C-j> <C-d>
 nnoremap <C-k> <C-u>

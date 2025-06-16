@@ -4,12 +4,18 @@ This repository contains my personal dotfiles, configuration files, and setup sc
 
 ## Setup
 
-```sh
-git clone https://github.com/ariefrahmanna/dotfiles.git ~/dotfiles/
-```
+- option 1 (at root directory):
 
-## Installation
-```sh
+```bash
+git clone https://github.com/ariefrahmanna/dotfiles.git ~/dotfiles/
 cd ~/dotfiles/
 stow .
+```
+
+- option 2 (anywhere):
+
+```bash
+git clone https://github.com/ariefrahmanna/dotfiles.git
+cd dotfiles/
+stow -t ~ .
 ```

@@ -25,7 +25,7 @@ alias tmuxreload="tmux source-file ~/.config/tmux/tmux.conf"
 alias tmuxstart="tmux attach-session || tmux new-session -s default"
 
 # start tmux session with the name 'default'
-tinit() {
+tart() {
   if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
     tmux attach-session -t default 2>/dev/null || tmux new-session -s default
   fi

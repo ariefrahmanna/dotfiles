@@ -1,26 +1,23 @@
 [user]
-    name = Arief Rahman
-    email = 140642047+ariefrahmanna@users.noreply.github.com
-[color]
-    ui = auto
+	name = Arief Rahman
+	email = 140642047+ariefrahmanna@users.noreply.github.com
+# [color]
+# 	ui = auto
 [init]
-    defaultBranch = main
+	defaultBranch = main
 [core]
-    autocrlf = false
+	autocrlf = false
+	editor = code --wait
 [push]
-    autoSetupRemote = true
-[color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
-[color "diff"]
-    meta = yellow bold
-    frag = magenta bold # line info
-    old = red # deletions
-    new = green # additions
-[color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
-[credential]
-    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
+	autoSetupRemote = true
+[alias]
+	ci = commit
+  cim = commit -m
+	aa = add -A
+	pr = pull --rebase
+	stat = status -s
+	ammend = commit --amend --no-edit
+	rh = reset HEAD
+
+# [credential]
+#	 helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe

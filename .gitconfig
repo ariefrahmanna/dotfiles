@@ -1,8 +1,6 @@
 [user]
 	name = Arief Rahman
 	email = 140642047+ariefrahmanna@users.noreply.github.com
-# [color]
-# 	ui = auto
 [init]
 	defaultBranch = main
 [core]
@@ -11,13 +9,12 @@
 [push]
 	autoSetupRemote = true
 [alias]
-	ci = commit
-  cim = commit -m
-	aa = add -A
-	pr = pull --rebase
 	stat = status -s
-	ammend = commit --amend --no-edit
+	aa = add -A
+	ci = commit
 	rh = reset HEAD
-
+	pr = pull --rebase
+	ammend = commit --amend --no-edit
+	ibase = rebase --interactive
 # [credential]
 #	 helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
